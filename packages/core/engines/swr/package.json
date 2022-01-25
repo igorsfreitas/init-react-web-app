@@ -1,0 +1,16 @@
+{
+  "private": true,
+  "name": "@idea/swr",
+  "version": "0.0.0",
+  "description": "Package that provide an wrapper to use swr",
+  "author": "Guilherme Monte <guilherme.monte@meta.com.br>",
+  "main": "index.js",
+  "license": "ISC",
+  "scripts": {
+    "lint": "eslint --cache . --ext .js"
+  },
+  "dependencies": {
+    "@nandorojo/swr-react-native": "^0.1.3",
+    "swr": "^0.5.6"
+  }
+}

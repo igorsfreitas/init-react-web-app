@@ -1,0 +1,11 @@
+.btn{
+  padding: 5px;
+  font-family: Poppins;
+  width: 10%;
+  height: 5%;
+  border-color: #A877B1;
+  color: #A877B1;
+  border-radius: 150px;
+  font-weight: 500;
+  size: 16px;
+}

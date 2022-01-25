@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "baseUrl": ".",
+    "paths": {
+      "~/*": ["src/*"]
+    },
+    "sourceMap": true,
+    "jsx": "react"
+  },
+  "include": ["src", "../core/styles/colors.js", "../core/engines/forms/schemas/accessUser/accessUserCreateSchema.js"],
+  "exclude": ["node_modules"]
+}

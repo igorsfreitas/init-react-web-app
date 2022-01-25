@@ -1,0 +1,51 @@
+{
+  "name": "idea",
+  "private": true,
+  "license": "MIT",
+  "engines": {
+    "node": "14"
+  },
+  "workspaces": {
+    "packages": [
+      "configs/*",
+      "packages/core/*",
+      "packages/core/engines/*",
+      "packages/mobile",
+      "packages/web"
+    ]
+  },
+  "scripts": {
+    "lint": "lerna run --parallel lint --",
+    "test": "lerna run test --stream -- --watchAll=false --colors --passWithNoTests",
+    "release": "lerna version minor --no-commit-hooks --force-publish",
+    "release:fix": "lerna version patch --no-commit-hooks",
+    "release:alpha": "lerna version preminor --force-publish --no-commit-hooks",
+    "postinstall": "patch-package",
+    "prepare": "husky install",
+    "build:docker": "docker build -t idea-frontend .",
+    "build:docker:staging": "docker build --build-arg env=staging -t idea-frontend .",
+    "build:docker:production": "docker build --build-arg env=production -t idea-frontend ."
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-lerna-changelog"
+    }
+  },
+  "dependencies": {
+    "@meta-awesome/functions": "^0.0.16",
+    "lodash": "^4.17.20",
+    "moment": "^2.27.0",
+    "short-uuid": "^4.1.0",
+    "styled-components": "^5.1.1"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^8.3.5",
+    "@commitlint/config-conventional": "^8.3.4",
+    "commitizen": "^4.0.3",
+    "cz-lerna-changelog": "2.0.2",
+    "dots-env": "^1.0.13",
+    "husky": "^7.0.0",
+    "lerna": "^4.0.0",
+    "patch-package": "^6.2.2"
+  }
+}

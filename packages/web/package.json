@@ -1,0 +1,70 @@
+{
+  "private": true,
+  "name": "@idea/web-app",
+  "version": "0.0.0",
+  "author": "Guilherme Monte <guilherme.monte@meta.com.br>",
+  "scripts": {
+    "start": "dots-env -p './env/' -c 'yarn react-app-rewired --max-http-header-size 15000 start'",
+    "build": "DISABLE_ESLINT_PLUGIN=true GENERATE_SOURCEMAP=false dots-env -p './env/' -c 'yarn react-app-rewired build'",
+    "lint": "eslint --cache ./src --ext .js"
+  },
+  "dependencies": {
+    "@ant-design/icons": "^4.6.2",
+    "@idea/constants": "0.0.0",
+    "@idea/forms": "0.0.0",
+    "@idea/i18n": "0.0.0",
+    "@idea/icons": "0.0.0",
+    "@idea/services": "0.0.0",
+    "@idea/stores": "0.0.0",
+    "@idea/styles": "0.0.0",
+    "@idea/swr": "0.0.0",
+    "@idea/use-modal": "0.0.0",
+    "@idea/utils": "0.0.0",
+    "@material-ui/core": "^4.11.3",
+    "@material-ui/icons": "^4.11.2",
+    "@material-ui/lab": "^4.0.0-alpha.56",
+    "@material-ui/styles": "^4.11.3",
+    "@meta-react/i18n": "^0.2.9",
+    "@unform/web": "^2.1.6",
+    "aes-js": "^3.1.2",
+    "antd": "^4.14.1",
+    "chart.js": "^3.6.0",
+    "flatpickr": "^4.6.9",
+    "html-to-react": "^1.4.5",
+    "jspdf": "^2.4.0",
+    "material-table": "gmonte/material-table#dist-mpba",
+    "material-ui-popup-state": "^1.8.3",
+    "mdi-material-ui": "^6.22.1",
+    "react": "^17.0.2",
+    "react-chartjs-2": "^4.0.0",
+    "react-dom": "^17.0.2",
+    "react-dropzone": "^11.3.2",
+    "react-flatpickr": "^3.10.7",
+    "react-google-recaptcha-v3": "^1.9.7",
+    "react-input-mask": "^3.0.0-alpha.2",
+    "react-number-format": "^4.5.5",
+    "react-router-dom": "^5.2.0",
+    "url-loader": "^4.1.1",
+    "web-vitals": "^1.0.1"
+  },
+  "devDependencies": {
+    "babel-eslint": "^10.1.0",
+    "cra-append-sw": "^2.7.0",
+    "customize-cra": "^1.0.0",
+    "local-web-server": "^4.2.1",
+    "react-app-rewired": "^2.1.6",
+    "react-scripts": "4.0.3"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

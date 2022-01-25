@@ -1,0 +1,15 @@
+.filter{
+  display: flex;
+  height: 23px;
+  min-width: 0px;
+  padding: 5px;
+  font-family: Open Sans;
+  border-color: #E4C6EA; 
+  color: #E4C6EA;
+  border-radius: 5px;
+  font-weight: 400;
+  line-height: 17px; 
+  font-size: 10px;
+  margin-right: 5px;
+
+}

@@ -1,0 +1,12 @@
+{
+  "private": true,
+  "name": "@idea/services",
+  "version": "0.0.0",
+  "license": "MIT",
+  "scripts": {
+    "lint": "eslint --cache . --ext .js"
+  },
+  "dependencies": {
+    "axios": "^0.21.1"
+  }
+}

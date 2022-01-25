@@ -1,0 +1,17 @@
+{
+  "private": true,
+  "name": "@idea/forms",
+  "version": "0.0.0",
+  "description": "Package that provide a form engine",
+  "author": "Guilherme Monte <guilherme.monte@meta.com.br>",
+  "main": "src/index.js",
+  "license": "ISC",
+  "scripts": {
+    "lint": "eslint --cache . --ext .js"
+  },
+  "dependencies": {
+    "@unform/core": "^2.1.3",
+    "cpf-cnpj-validator": "^1.0.2",
+    "yup": "^0.32.9"
+  }
+}

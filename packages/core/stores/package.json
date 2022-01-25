@@ -1,0 +1,23 @@
+{
+  "private": true,
+  "name": "@idea/stores",
+  "version": "0.0.0",
+  "description": "Package that provide redux saga stores",
+  "author": "Guilherme Monte <guilherme.monte@meta.com.br>",
+  "license": "ISC",
+  "scripts": {
+    "lint": "eslint --cache . --ext .js"
+  },
+  "dependencies": {
+    "@idea/services": "^0.0.0",
+    "crypto-js": "^4.0.0",
+    "flatted": "^3.1.0",
+    "jwt-decode": "^3.0.0-beta.2",
+    "react-redux": "^7.2.1",
+    "redux-devtools-extension": "^2.13.9",
+    "redux-logger": "^3.0.6",
+    "redux-persist": "^6.0.0",
+    "redux-saga": "^1.1.3",
+    "reduxsauce": "^1.2.0"
+  }
+}

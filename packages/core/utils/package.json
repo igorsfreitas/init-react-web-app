@@ -1,0 +1,13 @@
+{
+  "private": true,
+  "name": "@idea/utils",
+  "version": "0.0.0",
+  "license": "MIT",
+  "scripts": {
+    "lint": "eslint --cache . --ext .js"
+  },
+  "dependencies": {
+    "currency.js": "^2.0.3",
+    "formatar-valores": "^0.0.6"
+  }
+}

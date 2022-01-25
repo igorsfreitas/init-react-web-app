@@ -1,0 +1,24 @@
+{
+  "recommendations": [
+    "dbaeumer.vscode-eslint",
+    "abumalick.vscode-nvm",
+    "formulahendry.auto-rename-tag",
+    "coenraads.bracket-pair-colorizer-2",
+    "naumovs.color-highlight",
+    "infarkt.css-to-jss",
+    "paulmolluzzo.convert-css-in-js",
+    "visioncan.vscode-jss-snippets",
+    "mikestead.dotenv",
+    "editorconfig.editorconfig",
+    "mhutchie.git-graph",
+    "eamodio.gitlens",
+    "salesforce.salesforcedx-vscode-lwc",
+    "bierner.lit-html",
+    "ms-vsliveshare.vsliveshare",
+    "xyz.local-history",
+    "silvenon.mdx",
+    "xabikos.reactsnippets",
+    "gruntfuggly.todo-tree",
+    "jpoissonnier.vscode-styled-components"
+  ],
+}
